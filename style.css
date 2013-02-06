@@ -1,0 +1,18 @@
+.container {
+	background-color: #000000;
+	width: 100%;
+}
+
+body {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: #ffffff;
+
+}
+
+.bold {
+	font-weight: bold;
+}
+
+h1 {
+	margin: auto;
+}
