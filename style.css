@@ -20,14 +20,6 @@
 }
 
 
-
-/*.footer {
-  clear: both;
-  overflow: hidden;
-  padding-top: 100px;
-  margin-left: 470px;
-}*/
-
 .contact-info {
   border-left: 1px solid #fff;
   height: 102px;
@@ -55,16 +47,5 @@
 
 #film:hover {
   opacity: .5;
-}
-
-iframe {
- padding-top: 50px;
-  padding-left: 50px;
-}
-
-.mountain-small {
-   float: left;
-   padding-top: 20px;
-   padding-right: 10px;
 }
 
