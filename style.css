@@ -7,12 +7,33 @@ body {
 .container {
   text-align: center;
 }
+
+.info {
+  margin: auto;
+}
 .logo {
   padding-top: 150px;
 }
 
 .logo:hover {
    opacity: .5;
+}
+
+.contact-info {
+
+border-left: 1px solid #fff;
+}
+
+.brett, .film {
+  opacity: .5;
+}
+
+.brett:hover {
+  opacity: 1;
+}
+
+.film:hover {
+  opacity: 1;
 }
 
 .videos {
@@ -29,29 +50,31 @@ a img {
 }
 
 .thumb {
+  width: 160px;
+  height: 90px;
   margin: 0px 10px;
+  opacity: 0.3;
+}
+
+.thumb:hover {
+  opacity: 1;
 }
 
 .ozzy {
-  height: 84px;
-  width: 150px;
-  background-image: url("images/ozzy-sprite.png");
-  background-position: 0px -85px;
-  border: #000
-}
-
-.ozzy:hover {
-  background-position: 0px 0px;
+  background-image: url("images/still-ozzy.png");
 }
 
 .rfr {
-  height: 84px;
-  width: 150px;
-  background-image: url("images/rfr-sprite.png");
-  background-position: 0px -85px;
-  border: #000
+  background-image: url("images/still-rfr.png");
 }
 
-.rfr:hover {
-  background-position: 0px 0px;
+.rachel {
+  background-image: url("images/still-rachel.png");
+}
+
+.fashion {
+  background-image: url("images/still-fashion.png");
+}
+.weekend {
+  background-image: url("images/still-weekend.png");
 }
