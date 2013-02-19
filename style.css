@@ -8,11 +8,15 @@ body {
   text-align: center;
 }
 
-.info {
-  margin: auto;
+.header {
+  clear: both;
+  overflow: hidden;
+  padding-top: 300px;
+  min-width: 1060px;
 }
 .logo {
-  padding-top: 150px;
+  display: inline-block;
+
 }
 
 .logo:hover {
@@ -20,7 +24,6 @@ body {
 }
 
 .contact-info {
-
 border-left: 1px solid #fff;
 }
 
@@ -58,6 +61,10 @@ a img {
 
 .thumb:hover {
   opacity: 1;
+  border-left: 1px solid #fff;
+  height: 102px;
+  margin-left: 34px;
+  display: inline-block;
 }
 
 .ozzy {
@@ -75,6 +82,7 @@ a img {
 .fashion {
   background-image: url("images/still-fashion.png");
 }
+
 .weekend {
   background-image: url("images/still-weekend.png");
 }
